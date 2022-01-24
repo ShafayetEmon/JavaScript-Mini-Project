@@ -1,0 +1,46 @@
+h1 {
+  margin: 10px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #dc143c;
+}
+
+p {
+  font-size: 2rem;
+  color: #dc143c;
+  font-family: monospace, cursive;
+  font-weight: bold;
+}
+
+img {
+  width: 50%;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+.btn {
+  text-align: center;
+  display: block;
+  outline: none;
+  border: none;
+  background-color: #dc143c;
+  width: 400px;
+  height: 70px;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  background-size: 100% 100%;
+  box-shadow: 0 0 0 7px;
+  margin: 50px auto;
+}
