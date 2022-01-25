@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #dbedf3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #da0463;
+}
+
+.btn {
+  display: flex;
+  min-height: 40vh;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.drum {
+  width: 10rem;
+  margin: 0.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+  text-align: center;
+  color: white;
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem black;
+  font-size: 1.5rem;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: white;
+  box-shadow: 0 0 1rem white;
+}
